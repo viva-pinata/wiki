@@ -1,0 +1,2 @@
+# wiki
+viva piñata wiki
