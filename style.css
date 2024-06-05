@@ -30,7 +30,7 @@ h6 {
 
 header {
 
-    margin: 10px;
+    margin-bottom: 10px;
     text-align: center;
   }
 
@@ -75,12 +75,11 @@ body {
     text-align: center;
     vertical-align: middle;
     background-position: center center;
-    margin-bottom: 10px;
     padding: 10px;
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    margin-right: 10px;
+    margin-left: 10px;
     padding: 10px;
     text-align: left;
     height: 100%;
@@ -90,7 +89,6 @@ body {
     text-align: center;
     vertical-align: middle;
     background-position: center center;
-    margin-bottom: 10px;
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -104,8 +102,5 @@ body {
   footer {
     text-align: center;
     vertical-align: middle;
-    margin: auto;
     background-position: center center;
-    margin-right: 10px;
-    margin-left: 10px;
   }
