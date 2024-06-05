@@ -15,7 +15,6 @@ html {
     text-align: center;
     justify-content: center;
     vertical-align: middle;
-    font-family: monospace;
   
   }
 
@@ -25,14 +24,12 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: monospace, cursive;
   margin: auto;
   width: fit-content;
 }
 
 header {
 
-    border-radius: 10px;
     margin: 10px;
     text-align: center;
   }
@@ -55,7 +52,6 @@ body {
     padding: 10px;
     height: 100%;
     width: 90%;
-    border-radius: 20px;
   
     margin: auto;
     height: 100%;
@@ -69,12 +65,11 @@ body {
     text-align: center;
     vertical-align: middle;
     margin: auto;
-    margin-bottom: 10px;
     background-position: center center;
     border-radius: 10px;
     height: 100%;
     overflow: auto;
-    min-width: 100%;
+    width: 100%;
   }
 
   aside {
@@ -95,7 +90,6 @@ body {
     flex-direction: column;
     flex-grow: 1;
     margin-right: 10px;
-    border-radius: 10px;
     padding: 10px;
     text-align: left;
     height: 100%;
