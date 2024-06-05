@@ -1,22 +1,22 @@
 * {
-    image-rendering: optimizeSpeed;
-    animation: fade 0.9s linear;
-  }
-  
-  img {
-    image-rendering: pixelated;
-  }
+  image-rendering: optimizeSpeed;
+  animation: fade 0.9s linear;
+}
+
+img {
+  image-rendering: pixelated;
+}
 
 html {
-    font-size: 1.2em;
-    min-height: 100%;
-    margin: 0;
-    background-position: center center;
-    text-align: center;
-    justify-content: center;
-    vertical-align: middle;
-  
-  }
+  font-size: 1.2em;
+  min-height: 100%;
+  margin: 0;
+  background-position: center center;
+  text-align: center;
+  justify-content: center;
+  vertical-align: middle;
+
+}
 
 h1,
 h2,
@@ -30,77 +30,90 @@ h6 {
 
 header {
 
-    margin-bottom: 10px;
-    text-align: center;
-  }
+  margin-bottom: 10px;
+  text-align: center;
+}
 
-.body-flex{
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-    flex-grow: 1;
-    min-width: 100%;
+.body-flex {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  min-width: 100%;
 }
 
 
 body {
-    margin: 0;
-    background-position: center center;
-    text-align: center;
-    justify-content: center;
-    vertical-align: middle;
-    padding: 10px;
-    height: 100%;
-    width: 90%;
-  
-    margin: auto;
-    height: 100%;
-    min-height: 100%;
-  
-    overflow-x: clip;
-    overflow-y: scroll;
+  margin: 0;
+  background-position: center center;
+  text-align: center;
+  justify-content: center;
+  vertical-align: middle;
+  padding: 10px;
+  height: 100%;
+  width: 90%;
+
+  margin: auto;
+  height: 100%;
+  min-height: 100%;
+
+  overflow-x: clip;
+  overflow-y: scroll;
+}
+
+main {
+  text-align: center;
+  vertical-align: middle;
+  margin: auto;
+  background-position: center center;
+  height: 100%;
+  overflow: auto;
+  width: 100%;
+}
+
+aside {
+  text-align: center;
+  vertical-align: middle;
+  background-position: center center;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin-left: 10px;
+  padding: 10px;
+  text-align: left;
+  min-height: 100%;
+}
+
+nav {
+  text-align: center;
+  vertical-align: middle;
+  background-position: center center;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin-right: 10px;
+  padding: 10px;
+  text-align: left;
+  min-height: 100%;
+}
+
+footer {
+  text-align: center;
+  vertical-align: middle;
+  background-position: center center;
+}
+
+/* phone */
+@media only screen and (max-width: 600px) {
+
+  .pcnav {
+  visibility: hidden;
+  display: none;
   }
 
-  main {
-    text-align: center;
-    vertical-align: middle;
-    margin: auto;
-    background-position: center center;
-    height: 100%;
-    overflow: auto;
-    width: 100%;
-  }
+}
 
-  aside {
-    text-align: center;
-    vertical-align: middle;
-    background-position: center center;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-    margin-left: 10px;
-    padding: 10px;
-    text-align: left;
-    min-height: 100%;
-  }
-  
-  nav {
-    text-align: center;
-    vertical-align: middle;
-    background-position: center center;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-    margin-right: 10px;
-    padding: 10px;
-    text-align: left;
-    min-height: 100%;
-  }
-  
-  footer {
-    text-align: center;
-    vertical-align: middle;
-    background-position: center center;
-  }
+/*light mode (default)*/
+@media (prefers-color-scheme: light) {}
