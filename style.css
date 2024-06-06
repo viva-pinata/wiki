@@ -118,8 +118,8 @@ aside {
   background: red;
 
   position: absolute;
-  top: 0;
-  right: 25px;
+  top: 10px;
+  left: 10px;
   font-size: 36px;
   margin-left: 50px;
 }
@@ -130,8 +130,8 @@ aside {
   background: red;
 
   position: absolute;
-  top: 0;
-  right: 25px;
+  top: 10px;
+  right: 10px;
   font-size: 36px;
   margin-left: 50px;
 }
