@@ -99,6 +99,9 @@ nav {
   min-height: 100%;
 }
 
+.phonenav {
+}
+
 footer {
   text-align: center;
   vertical-align: middle;
@@ -109,8 +112,28 @@ footer {
 @media only screen and (max-width: 600px) {
 
   .pcnav {
-  visibility: hidden;
-  display: none;
+    visibility: hidden;
+    display: none;
+  }
+
+}
+
+/* tablet, wide phone*/
+@media screen and (min-width: 800px) {
+
+  .phonenav {
+    visibility: hidden;
+    display: none;
+  }
+
+}
+
+/* computer */
+@media screen and (min-width: 1000px) {
+
+  .phonenav {
+    visibility: hidden;
+    display: none;
   }
 
 }
@@ -118,11 +141,15 @@ footer {
 /*light mode (default)*/
 @media (prefers-color-scheme: light) {
 
-  header, main, nav, aside, footer{
+  header,
+  main,
+  nav,
+  aside,
+  footer {
     background: white;
   }
 
-  body{
-background: black;
+  body {
+    background: black;
   }
 }
