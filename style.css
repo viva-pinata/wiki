@@ -112,9 +112,10 @@ nav {
   padding-top: 60px;
 }
 
-.button-open{
+.button-open {
   height: 10px;
-  width: fit-content;
+  width: 40px;
+  background: red;
 
   position: absolute;
   top: 0;
@@ -123,9 +124,10 @@ nav {
   margin-left: 50px;
 }
 
-.button-close{
-  height: 10px;
-  width: fit-content;
+.button-close {
+  height: 40px;
+  width: 40px;
+  background: red;
 
   position: absolute;
   top: 0;
@@ -153,7 +155,9 @@ footer {
 /* tablet, wide phone*/
 @media screen and (min-width: 800px) {
 
-  .phonenav, .button-open, .button-close {
+  .phonenav,
+  .button-open,
+  .button-close {
     visibility: hidden;
     display: none;
   }
@@ -163,7 +167,9 @@ footer {
 /* computer */
 @media screen and (min-width: 1000px) {
 
-  .phonenav, .button-open, .button-close {
+  .phonenav,
+  .button-open,
+  .button-close {
     visibility: hidden;
     display: none;
   }
