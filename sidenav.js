@@ -5,4 +5,5 @@ function openNav() {
   
   function closeNav() {
     document.getElementById("sideNav").style.width = "0";
+    document.body.style.backgroundColor = "white";
   }
