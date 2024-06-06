@@ -116,4 +116,13 @@ footer {
 }
 
 /*light mode (default)*/
-@media (prefers-color-scheme: light) {}
+@media (prefers-color-scheme: light) {
+
+  header, main, nav, aside, footer{
+    background: white;
+  }
+
+  body{
+background: black;
+  }
+}
