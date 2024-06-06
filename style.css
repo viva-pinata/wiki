@@ -100,6 +100,12 @@ nav {
 }
 
 .phonenav {
+  background: green;
+}
+
+.phonenav-button{
+  height: 10px;
+  width: fit-content;
 }
 
 footer {
@@ -121,7 +127,7 @@ footer {
 /* tablet, wide phone*/
 @media screen and (min-width: 800px) {
 
-  .phonenav {
+  .phonenav, .phonenav-button {
     visibility: hidden;
     display: none;
   }
@@ -131,7 +137,7 @@ footer {
 /* computer */
 @media screen and (min-width: 1000px) {
 
-  .phonenav {
+  .phonenav, .phonenav-button {
     visibility: hidden;
     display: none;
   }
